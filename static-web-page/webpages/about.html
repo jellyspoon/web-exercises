@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta title="Static web page" />
+    <link rel="stylesheet" href="/style/styles.css">
+    <script src="/script/counter.js"></script>
+  </head>
+  <body>
+    <h1 class="about-page-title">This is the about page</h1>
+    <p>The title above has the "about-page-title" class applied to it.</p>
+    <p class="about-page-paragragh">This paragraph has the "about-page-paragragh" style applied to it.</p>
+    <div class="about-page-counter">
+      <h2 id="counter">0</h2>
+      <div>
+        <button onclick="incrementCounter(document.getElementById('counter'), -1)">-</button>
+        <button onclick="incrementCounter(document.getElementById('counter'), 1)">+</button>
+      </div>
+      <p>This is a counter that is using javascript to increment and decrement the value in the "counter" element.</p>
+    </div>
+    <br>
+    <a href="/">Click here to see the index page</a>
+  </body>
+</html>
